@@ -1,49 +1,33 @@
-# Blinkit-Analysis-Using-Python
+## Blinkit-Analysis-Using-Python
 
-#!/usr/bin/env python
-# coding: utf-8
+####!/usr/bin/env python
+#### coding: utf-8
 
-# ## Data Analysis Python Project - Blinkit Analysis
+### Data Analysis Python Project - Blinkit Analysis
 
-# #### Import Libraries
+#### Import Libraries
 
-# In[1]:
+### In[1]:
+#### import pandas as pd
+#### import numpy as np
+#### import matplotlib.pyplot as plt
+#### import seaborn as sns
 
-
-import pandas as pd
-import numpy as np
-import matplotlib.pyplot as plt
-import seaborn as sns
-
-
-# #### Import Raw Data
-
-# In[2]:
-
-
+### Import Raw Data
+#### In[2]:
 df = pd.read_csv("blinkit_data.csv")
 
+### Sample Data
+#### In[3]:
+#### df.head(5)
 
-# #### Sample Data
+### In[4]:
+####df.tail(5)
 
-# In[3]:
+### Size of  Data
 
-
-df.head(5)
-
-
-# In[4]:
-
-
-df.tail(5)
-
-
-# #### Size of  Data
-
-# In[5]:
-
-
-print("Size of Data :", df.shape)
+### In[5]:
+#### print("Size of Data :", df.shape)
 
 
 # #### Field Info
