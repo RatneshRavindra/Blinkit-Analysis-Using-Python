@@ -2,11 +2,23 @@
 
 ### This project performs a complete data analysis on Blinkit's sales dataset using Python, pandas, and visualization libraries like ###Matplotlib and Seaborn.
 
-## 📁 Dataset
+### 📁 Dataset
  
 ### The dataset contains product-level sales, ratings, fat content, and item types from Blinkit.
 
-## 🧹 Data Cleaning
+### Import Libraries
+#### import pandas as pd
+#### import numpy as np
+#### import matplotlib.pyplot as plt
+#### import seaborn as sns
+
+### Import Raw Data
+#### df = pd.read_csv("blinkit_data.csv")
+
+### Sample Data
+#### df.head(5)
+
+### 🧹 Data Cleaning
 
 ### Standardized inconsistent entries in Item Fat Content (e.g., "low fat", "LF" → "Low Fat"; "reg" → "Regular")
 
