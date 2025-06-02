@@ -1,86 +1,4 @@
-# 🛒 Blinkit Sales Analysis
-
-### This project performs a complete data analysis on Blinkit's sales dataset using Python, pandas, and visualization libraries like ###Matplotlib and Seaborn.
-
-### 📁 Dataset
- 
-### The dataset contains product-level sales, ratings, fat content, and item types from Blinkit.
-
-### Import Libraries
-#### import pandas as pd
-#### import numpy as np
-#### import matplotlib.pyplot as plt
-#### import seaborn as sns
-
-### Import Raw Data
-#### df = pd.read_csv("blinkit_data.csv")
-
-### Sample Data
-#### df.head(5)
-
-### 🧹 Data Cleaning
-
-### Standardized inconsistent entries in Item Fat Content (e.g., "low fat", "LF" → "Low Fat"; "reg" → "Regular")
-
-### Verified dataset shape and data types
-
-### Removed or corrected irrelevant/malformed values
-
-## 📊 KPIs & Summary Metrics
-
-### Key performance indicators calculated include:
-
-#### Total sales:
-
-#### Average sales:
-
-#### Number of items sold:
-
-#### Average ratings:
-
-### (Replace the placeholders above with the actual output if you want hardcoded numbers in README)
-
-## 📈 Visualizations
-
-#### Several visual insights were drawn from the dataset, including:
-
-### 📊 Pie Chart of Sales by Fat Content
-![Alt text](https://github.com/RatneshRavindra/Blinkit-Analysis-Using-Python/blob/0834febb4fc4e4f260e11350e02ec60f82546eae/Sales%20by%20fat%20content.png)
-
-### 📦 Bar Charts of Item Type vs Total Sales
-![Alt text](https://github.com/RatneshRavindra/Blinkit-Analysis-Using-Python/blob/0834febb4fc4e4f260e11350e02ec60f82546eae/Sales%20by%20outlet%20size.png)
-
-### 🧱 Stacked Bar Charts by Fat Content and Outlet Type
-![Alt text](https://github.com/RatneshRavindra/Blinkit-Analysis-Using-Python/blob/0834febb4fc4e4f260e11350e02ec60f82546eae/Total%20sales%20by%20item%20type.png)
-
-### 📉 Line Chart showing trend of Sales by Establishment Year
-![Alt text](https://github.com/RatneshRavindra/Blinkit-Analysis-Using-Python/blob/0834febb4fc4e4f260e11350e02ec60f82546eae/Total%20sales%20by%20outlet%20establishment%20year.png)
-
-### 📐 Horizontal Bar Charts for sales distribution by Outlet Location
-![Alt text](https://github.com/RatneshRavindra/Blinkit-Analysis-Using-Python/blob/0834febb4fc4e4f260e11350e02ec60f82546eae/Total%20sales%20by%20outlet%20location%20type%20and%20item%20fat%20content.png)
-
-![Alt text](https://github.com/RatneshRavindra/Blinkit-Analysis-Using-Python/blob/0834febb4fc4e4f260e11350e02ec60f82546eae/Total%20sales%20by%20outlet%20location%20type.png)
-
-## 📌 Tools Used
-
-#### Python
-
-#### Pandas
-
-#### NumPy
-
-#### Matplotlib
-
-#### Seaborn
-
-#### Jupyter Notebook
-
-
-
-
-
-
-### Data Analysis Python Project - Blinkit Analysis
+# Data Analysis Python Project - Blinkit Analysis
 
 #### Import Libraries
 #### import pandas as pd
@@ -98,34 +16,17 @@
 #### df.tail(5)
 
 
-# #### Size of  Data
-
-# In[5]:
-
-
-print("Size of Data :", df.shape)
+### Size of Data
+#### print("Size of Data :", df.shape)
 
 
-# #### Field Info
-
-# In[6]:
-
-
-df.info()
+### Field Info
+#### df.info()
 
 
-# #### Data Cleaning
-
-# In[7]:
-
-
-print(df["Item Fat Content"].unique())
-
-
-# In[8]:
-
-
-df['Item Fat Content'] = df['Item Fat Content'].replace({'LF': 'Low Fat', 'low fat': 'Low Fat', 'reg': 'Regular'})
+### Data Cleaning
+#### print(df["Item Fat Content"].unique())
+#### df['Item Fat Content'] = df['Item Fat Content'].replace({'LF': 'Low Fat', #### 'low fat': 'Low Fat', 'reg': 'Regular'})
 
 
 # In[9]:
@@ -193,21 +94,10 @@ sales_by_fat
 print(df["Item Type"].unique())
 
 
-# In[15]:
-
-
 # Group by Item Type and sum the sales
 sales_by_item_type = df.groupby('Item Type')['Sales'].sum().sort_values(ascending=False)
 
-
-# In[16]:
-
-
 sales_by_item_type
-
-
-# In[17]:
-
 
 # Group and sum sales
 sales_by_item_type = df.groupby('Item Type')['Sales'].sum().sort_values(ascending=False)
