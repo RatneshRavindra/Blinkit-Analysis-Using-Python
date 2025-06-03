@@ -392,7 +392,7 @@ plt.show()
 
 
     
-![png](Blinkit_Analysis_in_Python_files/Blinkit_Analysis_in_Python_22_0.png)
+![png](https://github.com/RatneshRavindra/Blinkit-Analysis-Using-Python/blob/ded2bfd277555ea1060207bfdeaaa8dc74240fa5/Sales%20by%20fat%20content.png)
     
 
 
@@ -469,7 +469,7 @@ plt.show()
 
 
     
-![png]([Blinkit_Analysis_in_Python_files/Blinkit_Analysis_in_Python_27_0.png](https://github.com/RatneshRavindra/Blinkit-Analysis-Using-Python/blob/0834febb4fc4e4f260e11350e02ec60f82546eae/Sales%20by%20fat%20content.png))
+![png](https://github.com/RatneshRavindra/Blinkit-Analysis-Using-Python/blob/ded2bfd277555ea1060207bfdeaaa8dc74240fa5/Total%20sales%20by%20item%20type.png)
     
 
 
@@ -521,7 +521,7 @@ plt.show()
 
 
     
-![png](Blinkit_Analysis_in_Python_files/Blinkit_Analysis_in_Python_30_0.png)
+![png]([Blinkit_Analysis_in_Python_files/Blinkit_Analysis_in_Python_30_0.png](https://github.com/RatneshRavindra/Blinkit-Analysis-Using-Python/blob/ded2bfd277555ea1060207bfdeaaa8dc74240fa5/Total%20sales%20by%20outlet%20location%20type%20and%20item%20fat%20content.png))
     
 
 
@@ -559,7 +559,7 @@ plt.show()
 
 
     
-![png](Blinkit_Analysis_in_Python_files/Blinkit_Analysis_in_Python_33_0.png)
+![png]([Blinkit_Analysis_in_Python_files/Blinkit_Analysis_in_Python_33_0.png](https://github.com/RatneshRavindra/Blinkit-Analysis-Using-Python/blob/ded2bfd277555ea1060207bfdeaaa8dc74240fa5/Total%20sales%20by%20outlet%20establishment%20year.png))
     
 
 
@@ -579,7 +579,7 @@ plt.show()
 
 
     
-![png](Blinkit_Analysis_in_Python_files/Blinkit_Analysis_in_Python_35_0.png)
+![png]([Blinkit_Analysis_in_Python_files/Blinkit_Analysis_in_Python_35_0.png](https://github.com/RatneshRavindra/Blinkit-Analysis-Using-Python/blob/ded2bfd277555ea1060207bfdeaaa8dc74240fa5/Sales%20by%20outlet%20size.png))
     
 
 
@@ -734,6 +734,6 @@ plt.show()
 
 
     
-![png](Blinkit_Analysis_in_Python_files/Blinkit_Analysis_in_Python_38_0.png)
+![png]([Blinkit_Analysis_in_Python_files/Blinkit_Analysis_in_Python_38_0.png](https://github.com/RatneshRavindra/Blinkit-Analysis-Using-Python/blob/ded2bfd277555ea1060207bfdeaaa8dc74240fa5/Total%20sales%20by%20outlet%20location%20type.png))
     
 
